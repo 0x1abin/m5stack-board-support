@@ -2,20 +2,20 @@
   "packages": [
     {
       "name": "esp32",
-      "maintainer": "Espressif Systems",
-      "websiteURL": "https://github.com/espressif/arduino-esp32",
-      "email": "hristo@espressif.com",
+      "maintainer": "M5Stack", 
+      "websiteURL": "https://github.com/espressif/esp32-arduino",
+      "email": "JimmyLai@M5Stack.com",
       "help": {
         "online": "http://esp32.com"
       },
       "platforms": [
         {
-          "category": "M5Stack-Core-ESP32", 
+          "category": "ESP32", 
           "help": {
             "online": ""
           }, 
-          "url": "https://github.com/m5stack/m5stack-board-support/M5Stack-Core-ESP32-0.0.1.zip", 
-          "checksum": "SHA-256:a3d0a1e193bbe3b10016b1ffe94e47f571731a337b1d1b5a816921d558b2c0ed",
+          "url": "https://github.com/m5stack/m5stack-board-support/raw/master/M5Stack-Core-ESP32-0.0.1.zip", 
+          "checksum": "",
           "version": "0.0.1", 
           "architecture": "M5Stack-Core-ESP32", 
           "archiveFileName": "M5Stack-Core-ESP32-0.0.1.zip", 
@@ -24,7 +24,7 @@
               "name": "M5Stack-Core-ESP32"
             }
           ], 
-          "size": "197121",
+          "size": "29208120",
           "toolsDependencies": [
             {
               "packager": "esp32", 
@@ -32,7 +32,7 @@
               "name": "xtensa-esp32-elf-gcc"
             }
           ], 
-          "name": "M5Stack-Core-ESP32 Mainboard"
+          "name": "M5Stack-Core-ESP32"
         }
       ],
       "tools": [
