@@ -1,16 +1,16 @@
 {
   "packages": [
     {
-      "name": "esp32",
-      "maintainer": "Espressif Systems",
+      "name": "M5Stack",
+      "maintainer": "M5Stack Inc",
       "websiteURL": "https://github.com/espressif/arduino-esp32",
-      "email": "hristo@espressif.com",
+      "email": "JimmyLai@M5Stack.com",
       "help": {
         "online": "http://esp32.com"
       },
       "platforms": [
         {
-          "name": "esp32",
+          "name": "M5Stack-Core-ESP32",
           "architecture": "esp32",
           "version": "0.0.1",
           "category": "ESP32",
