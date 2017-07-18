@@ -2,37 +2,42 @@
   "packages": [
     {
       "name": "esp32",
-      "maintainer": "M5Stack", 
-      "websiteURL": "https://github.com/espressif/esp32-arduino",
-      "email": "JimmyLai@M5Stack.com",
+      "maintainer": "Espressif Systems",
+      "websiteURL": "https://github.com/espressif/arduino-esp32",
+      "email": "hristo@espressif.com",
       "help": {
         "online": "http://esp32.com"
       },
       "platforms": [
         {
-          "category": "ESP32", 
+          "name": "esp32",
+          "architecture": "esp32",
+          "version": "0.0.1",
+          "category": "ESP32",
+          "url": "http://www.m5stack.com/download/M5Stack-Core-ESP32-0.0.1.zip",
+          "archiveFileName": "M5Stack-Core-ESP32-0.0.1.zip",
+          "checksum": "",
+          "size": "",
           "help": {
             "online": ""
-          }, 
-          "url": "https://github.com/m5stack/m5stack-board-support/raw/master/M5Stack-Core-ESP32-0.0.1.zip", 
-          "checksum": "",
-          "version": "0.0.1", 
-          "architecture": "M5Stack-Core-ESP32", 
-          "archiveFileName": "M5Stack-Core-ESP32-0.0.1.zip", 
+          },
           "boards": [
             {
               "name": "M5Stack-Core-ESP32"
             }
-          ], 
-          "size": "29208120",
+          ],
           "toolsDependencies": [
             {
-              "packager": "esp32", 
-              "version": "1.22.0-61-gab8375a-5.2.0", 
-              "name": "xtensa-esp32-elf-gcc"
+              "packager": "esp32",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool",
+              "version": "96698a3"
             }
-          ], 
-          "name": "M5Stack-Core-ESP32"
+          ]
         }
       ],
       "tools": [
