@@ -16,8 +16,8 @@
           "category": "ESP32",
           "url": "http://www.m5stack.com/download/M5Stack-Core-ESP32-0.0.1.zip",
           "archiveFileName": "M5Stack-Core-ESP32-0.0.1.zip",
-          "checksum": "",
-          "size": "30888818",
+          "checksum": "SHA-256:f9986e052fa69282070b327adcf7fb2168fed0d2474fcc06285cfb3a5e848366",
+          "size": "38009808",
           "help": {
             "online": ""
           },
