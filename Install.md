@@ -54,6 +54,15 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 - Open Boards Manager from Tools > Board menu and install *ESP32* platform (and don't forget to select your ESP32 board from Tools > Board menu after installation).
 - If the MacOS complile error:
 ```bash
+fork/exec /Users/[YOUR_USER_NAME]/Library/Arduino15/packages/M5Stack/hardware/esp32/0.0.1/tools/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++: no such file or directory
+Error compiling for board M5Stack-Core-ESP32.
+ ```
+- Open Terminal and execute the following command (copy->paste and hit enter):
+ ```bash
+sudo python /Users/[YOUR_USER_NAME]/Library/Arduino15/packages/M5Stack/hardware/esp32/0.0.1/tools/get.py
+ ```
+ - If the MacOS complile error:
+```bash
 fork/exec /Users/[YOUR_USER_NAME]/Library/Arduino15/packages/M5Stack/hardware/esp32/0.0.1/tools/esptool: permission denied
 Error compiling for board M5Stack-Core-ESP32.
  ```
